@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vita Unique - Protocolo de Governança Digital</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#0f172a', /* Azul Noturno */
+                        'brand-gold': '#c5a059', /* Dourado Nobre */
+                        'brand-gray': '#f8fafc',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Montserrat', 'sans-serif'], /* Usando Montserrat como display */
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body { font-smooth: always; -webkit-font-smoothing: antialiased; }
+        .gradient-text {
+            background: linear-gradient(to right, #c5a059, #e2c58b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero-bg {
+            background-color: #0f172a;
+            background-image: radial-gradient(#1e293b 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+    </style>
+</head>
+<body class="bg-brand-gray text-slate-700">
+
+    <header class="fixed w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+            <div>
+                <h1 class="font-serif text-2xl font-bold text-brand-dark tracking-wider">VITA UNIQUE</h1>
+            </div>
+            <div class="mt-2 md:mt-0">
+                <p class="text-xs font-semibold text-brand-gold tracking-widest uppercase">Protocolo de Governança Digital 2026</p>
+                <p class="text-[10px] text-slate-400">DOCUMENTO ESTRATÉGICO RESTRITO À DIRETORIA</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-bg min-h-screen flex items-center justify-center pt-24 pb-12 px-6">
+        <div class="max-w-4xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-gold/10 text-brand-gold text-xs font-bold tracking-widest mb-6 border border-brand-gold/20">
+                O CONCEITO
+            </span>
+            <h2 class="font-serif text-4xl md:text-6xl font-bold text-white mb-8 leading-tight">
+                A Excelência Clínica Existe.<br>
+                A Base Técnica Existe.<br>
+                <span class="gradient-text">O Desafio é Governança.</span>
+            </h2>
+            
+            <div class="bg-slate-800/50 backdrop-blur-md p-8 rounded-xl border border-slate-700 text-left shadow-2xl">
+                <p class="text-slate-300 mb-6 text-lg">Dr. Rafael e Dra. Tatiana,</p>
+                <p class="text-slate-300 mb-6 leading-relaxed">
+                    A Vita Unique já possui os dois ativos mais difíceis de construir no mercado de saúde:
+                </p>
+                <div class="grid md:grid-cols-2 gap-6 mb-8">
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-server text-brand-gold mt-1"></i>
+                        <div>
+                            <h4 class="text-white font-bold">Infraestrutura Madura</h4>
+                            <p class="text-sm text-slate-400">14 anos de mercado, suporte técnico estável e segurança digital (HTTPS).</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <i class="fa-solid fa-heart-pulse text-brand-gold mt-1"></i>
+                        <div>
+                            <h4 class="text-white font-bold">Alma Clínica</h4>
+                            <p class="text-sm text-slate-400">Conteúdo com padrão técnico acima da média e material fotográfico profissional.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-t border-slate-700 pt-6">
+                    <p class="font-serif text-brand-gold font-bold mb-2">A TESE:</p>
+                    <p class="text-slate-200 italic">
+                        "O problema não é o esforço. O problema é que os sinais digitais que 'provam' essa excelência não estão conectados. Vocês têm as 'Mãos' (TI) e a 'Alma' (Conteúdo), mas falta o <strong class="text-white">Mapa de Governança</strong> (Inteligência de Dados) para transformar isso em patrimônio digital mensurável."
+                    </p>
+                </div>
+            </div>
+            
+            <div class="mt-10">
+                <a href="#gargalo" class="text-slate-400 hover:text-white transition-colors text-sm animate-bounce inline-block">
+                    <i class="fa-solid fa-arrow-down mb-2"></i><br>Entenda o Diagnóstico
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gargalo" class="py-24 px-6 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h3 class="font-serif text-3xl font-bold text-brand-dark mb-4">O Gargalo Invisível</h3>
+                <p class="text-xl text-slate-600 max-w-3xl mx-auto">Por que o Google não está entregando a qualidade da Dra. Tatiana para o paciente certo?</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-brand-gray p-8 rounded-lg border border-slate-100 shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="100">
+                    <div class="text-brand-dark mb-4 text-4xl"><i class="fa-solid fa-star-half-stroke"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Excelência não digitalizada</h4>
+                    <p class="text-sm text-slate-500 font-semibold mb-4 uppercase tracking-wide">Assimetria de Reputação</p>
+                    <p class="text-slate-600 mb-6 text-sm">A clínica possui apenas 17 avaliações em 14 anos. Negócios com gestão ativa convertem até 270% mais.</p>
+                    <div class="bg-red-50 p-4 rounded border-l-4 border-red-500">
+                        <p class="text-xs text-red-800 font-bold">DIAGNÓSTICO:</p>
+                        <p class="text-xs text-red-700 mt-1">O principal ativo de confiança está invisível para quem não conhece a clínica.</p>
+                    </div>
+                </div>
+
+                <div class="bg-brand-gray p-8 rounded-lg border border-slate-100 shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="200">
+                    <div class="text-brand-dark mb-4 text-4xl"><i class="fa-solid fa-link"></i></div>
+                    <h4 class="font-bold text-lg mb-2">Hemorragia de Autoridade</h4>
+                    <p class="text-sm text-slate-500 font-semibold mb-4 uppercase tracking-wide">Efeito Linktree</p>
+                    <p class="text-slate-600 mb-6 text-sm">A bio aponta para um agregador. Todo tráfego fortalece o site de terceiros, e não o domínio vitaunique.com.br.</p>
+                    <div class="bg-red-50 p-4 rounded border-l-4 border-red-500">
+                        <p class="text-xs text-red-800 font-bold">DIAGNÓSTICO:</p>
+                        <p class="text-xs text-red-700 mt-1">Construção de autoridade em "terreno alugado" e perda de relevância de SEO.</p>
+                    </div>
+                </div>
+
+                <div class="bg-brand-gray p-8 rounded-lg border border-slate-100 shadow-lg hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="300">
+                    <div class="text-brand-dark mb-4 text-4xl"><i class="fa-brands fa-google"></i></div>
+                    <h4 class="font-bold text-lg mb-2">O Google prioriza terceiros</h4>
+                    <p class="text-sm text-slate-500 font-semibold mb-4 uppercase tracking-wide">Sem Sinais Estruturados</p>
+                    <p class="text-slate-600 mb-6 text-sm">Ao buscar "Vita Unique", o algoritmo exibe CNPJs e diretórios antes do conteúdo proprietário.</p>
+                    <div class="bg-red-50 p-4 rounded border-l-4 border-red-500">
+                        <p class="text-xs text-red-800 font-bold">DIAGNÓSTICO:</p>
+                        <p class="text-xs text-red-700 mt-1">Falta de conexão técnica entre a excelência da clínica e o paciente High-Ticket.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-brand-dark text-white relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-64 h-64 bg-brand-gold rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-pulse"></div>
+
+        <div class="max-w-5xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h3 class="font-serif text-3xl font-bold mb-4">A Tríade de Governança Digital</h3>
+                <p class="text-slate-400">Não substituímos a equipe atual. Integramos a inteligência.</p>
+            </div>
+
+            <div class="space-y-6">
+                <div class="flex flex-col md:flex-row items-center bg-slate-800/50 p-6 rounded-xl border border-slate-700" data-aos="fade-right">
+                    <div class="w-16 h-16 bg-slate-700 rounded-full flex items-center justify-center text-2xl text-slate-400 font-bold shrink-0 mb-4 md:mb-0 md:mr-6">1</div>
+                    <div class="flex-1">
+                        <h4 class="font-serif font-bold text-xl mb-1">O ALICERCE (TI/Executor)</h4>
+                        <p class="text-sm text-slate-400 mb-2">Responsável: Suporte Atual</p>
+                        <p class="text-slate-300">Mantém a infraestrutura, segurança, atualizações e o site no ar. <span class="text-brand-gold font-bold">(As Mãos)</span></p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center bg-slate-800/50 p-6 rounded-xl border border-slate-700" data-aos="fade-left">
+                    <div class="w-16 h-16 bg-slate-700 rounded-full flex items-center justify-center text-2xl text-slate-400 font-bold shrink-0 mb-4 md:mb-0 md:mr-6">2</div>
+                    <div class="flex-1">
+                        <h4 class="font-serif font-bold text-xl mb-1">A AUTORIDADE (Dra. Tatiana)</h4>
+                        <p class="text-sm text-slate-400 mb-2">Responsável: Diretoria Clínica</p>
+                        <p class="text-slate-300">Garante a verdade técnica, a ética, a narrativa e a conexão humana. <span class="text-brand-gold font-bold">(A Alma)</span></p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center bg-gradient-to-r from-brand-gold/20 to-transparent p-6 rounded-xl border border-brand-gold/30" data-aos="fade-right">
+                    <div class="w-16 h-16 bg-brand-gold text-brand-dark rounded-full flex items-center justify-center text-2xl font-bold shrink-0 mb-4 md:mb-0 md:mr-6">3</div>
+                    <div class="flex-1">
+                        <h4 class="font-serif font-bold text-brand-gold text-xl mb-1">A INTELIGÊNCIA (Franklin Barbosa)</h4>
+                        <p class="text-sm text-slate-300 mb-2">Responsável: Estrategista de Dados</p>
+                        <p class="text-white">Desenha o Masterplan que conecta os sinais, prioriza alavancas e transforma presença digital em lucro. <span class="font-bold">(O Cérebro)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-16 bg-white text-brand-dark p-8 rounded-xl shadow-2xl" data-aos="zoom-in">
+                <h4 class="font-serif font-bold text-xl mb-4 text-center border-b pb-4">O DIFERENCIAL: Protocolo de Reciprocidade Ética</h4>
+                <div class="flex flex-col md:flex-row gap-6 items-center">
+                    <div class="flex-1 text-center md:text-left">
+                        <p class="leading-relaxed text-slate-700">Transformamos a experiência do paciente em reputação pública (Google Reviews) sem ferir a ética médica e sem parecer "desespero".</p>
+                    </div>
+                    <div class="bg-brand-dark text-white p-4 rounded text-center min-w-[200px]">
+                        <p class="text-xs uppercase tracking-widest mb-1 text-brand-gold">META</p>
+                        <p class="font-bold text-lg">Sair de 17 para <br><span class="text-3xl text-brand-gold">100</span><br> Avaliações</p>
+                        <p class="text-xs mt-1">Em 90 dias</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-brand-gray">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="font-serif text-3xl font-bold text-brand-dark mb-6">Independência e Controle</h3>
+            
+            <div class="bg-white p-8 rounded-xl shadow-sm border border-slate-200 mb-10 text-left">
+                <p class="text-slate-700 mb-4 font-medium">Vamos ser explícitos: Isto não é um contrato de mensalidade vitalícia.</p>
+                <p class="text-slate-600 mb-6 leading-relaxed">
+                    É uma entrega de inteligência e arquitetura (Masterplan Estratégico) que devolve o controle para a clínica. A partir deste mapa, a execução pode ser feita pela nossa consultoria, pelo seu TI atual ou por qualquer profissional de mercado.
+                </p>
+                
+                <h5 class="font-bold text-brand-dark mb-3">O QUE VALIDAREMOS NA REUNIÃO:</h5>
+                <ul class="space-y-2 mb-0">
+                    <li class="flex items-center gap-2 text-slate-600"><i class="fa-solid fa-check text-green-500"></i> Como destravar a Reputação de forma ética e imediata.</li>
+                    <li class="flex items-center gap-2 text-slate-600"><i class="fa-solid fa-check text-green-500"></i> Como parar de perder autoridade para o Linktree.</li>
+                    <li class="flex items-center gap-2 text-slate-600"><i class="fa-solid fa-check text-green-500"></i> O desenho do plano de governança.</li>
+                </ul>
+            </div>
+
+            <div class="space-y-4">
+                <p class="text-xs font-bold text-slate-400 tracking-widest uppercase mb-2">AÇÃO IMEDIATA</p>
+                
+                <a href="#" class="inline-block bg-brand-gold hover:bg-[#b08d4a] text-white font-bold py-5 px-10 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 text-lg">
+                    AGENDAR VALIDAÇÃO DO PROTOCOLO
+                </a>
+                
+                <p class="text-sm text-slate-500">
+                    <i class="fa-regular fa-clock mr-1"></i> Reunião de 30 min para definir o escopo mínimo de impacto: Reputação + Domínio + SERP
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-brand-dark text-slate-400 py-12 px-6 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <h5 class="text-white font-serif font-bold text-lg">Franklin Barbosa</h5>
+                <p class="text-sm mt-1">Estratégia de Dados para Clínicas de Alto Padrão</p>
+            </div>
+            <div class="text-center md:text-right max-w-md">
+                <p class="italic text-sm text-slate-500">"Não escolhemos projetos pelo valor, mas pela afinidade de propósitos."</p>
+                <p class="text-xs mt-4 text-slate-600">&copy; 2026 Franklin Barbosa. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
